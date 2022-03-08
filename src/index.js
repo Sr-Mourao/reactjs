@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Teste from './Teste';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Teste saudacao="Olá"/>
+    <Teste saudacao="oi"/>
+    <Teste saudacao="Como vai?"/>
   </React.StrictMode>,
   document.getElementById('root')
 );

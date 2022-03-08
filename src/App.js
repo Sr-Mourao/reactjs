@@ -1,12 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Teste from './Teste'
+
+//jsx
+
 function App() {
   return (
     <div className="App">
+
+      <Teste/>
+      <Teste/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          felipe mourao é foda!!
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
